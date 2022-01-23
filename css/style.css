@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.convention-center-navbar-brand {
+    font-weight: 900;
+    font-size:22px;
+    color: #3E3E3E;
+}
