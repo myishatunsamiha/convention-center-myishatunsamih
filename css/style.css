@@ -4,8 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.convention-center-navbar-brand {
-    font-weight: 900;
-    font-size:22px;
-    color: #3E3E3E;
+.carousel-btn {
+    padding: 10px 43.5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
