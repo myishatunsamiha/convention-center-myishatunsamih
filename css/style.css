@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -9,4 +10,62 @@ body {
     border: none;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.event-price, .event-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.event-title {
+    font-size: 28px;
+}
+
+.fas {
+    border-radius: 50px;
+    background-color: rgba(82, 67, 194, 0.103693);
+    color: #5243C2;
+    padding: 5px;
+}
+
+.package-btn {
+    color: #3F87F5;
+    padding: 14px 62px;
+    background-color: #f496d246;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding-top: 85px;
+}
+
+.card-body p {
+    color: #848199;
+}
+
+.new-package {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.418);
+}
+
+.new-package .card-body {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.new-package, .new-package p {
+    color: white;
+    background-color: #3F87F5;
+    border-radius: 26px;
+}
+
+.new-package .fas{
+    background-color: rgba(255, 255, 255, 0.137);
+    color: white;
+}
+
+.new-package .package-btn {
+    background-color: white;
+    margin-bottom: 43px;
 }
