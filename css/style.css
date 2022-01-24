@@ -69,3 +69,71 @@ body {
     background-color: white;
     margin-bottom: 43px;
 }
+
+footer {
+    height:280px;
+    background-color: #0B0D17;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.copyright {
+    padding-left: 115px;
+}
+
+.download {
+    padding-left: 330px;
+
+}
+
+.footer-btn {
+    display: block;
+}
+
+.footer-btn-img {
+    height: 40px; 
+    width: 135px; 
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+
+/* for small and tablet devices */
+/* @media only screen and (min-width:688px) and (max-width:992px) {  */
+@media only screen and (max-width:992px) {
+      .container {
+        width: 100%;
+    }
+
+    footer {
+        height: 340px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .download-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 68px;
+    }
+
+    .download {
+        text-align: center;
+        padding-left: 0px;
+
+    }
+}  
